@@ -1,0 +1,17 @@
+body{
+  background-image: url("../images/paper.png");
+  font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  color:#4EE2EC;
+}
+
+.header{
+  margin-left: 125px;
+  margin-top: 50px;
+}
+
+.about{
+  margin-left: 150px;
+}
