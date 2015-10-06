@@ -1,11 +1,12 @@
 body{
   /*background-image: url("../images/paper.png");*/
  /*font-family: 'Raleway', sans-serif;*/
- background-color: lightgray;
+ background-color: #6e7f80;
+ color:white;
 }
 
 h1{
-  color:gray;
+  color:white;
   font-size:50px;
 }
 
@@ -25,9 +26,11 @@ h2{
 
 .contact{
   margin-left: 150px;
-  border:2px solid gray;
+  border:2px solid #36454f;
+  border-radius: 5px;
   width:25%;
   padding:10px;
+  background-color: #536872;
 }
 
 .navbar{
@@ -38,17 +41,18 @@ h2{
   margin-top: 40px;
   margin-bottom: 40px;
   display: inline-block;
-  border: 2px solid gray;
+  border:2px solid #36454f;
   border-radius: 5px;
   padding-left:10px;
+  background-color: #708090;
 
 }
 
 .section{
   margin-left:200px;
-  border: 1px solid #86B3B6;
+  border: 1px solid #36454f;
   margin-top:20px;
-  /*background-color: #FFFBF5;*/
+  background-color: #708090;
   width:75%;
   padding: 10px;
 }
@@ -77,6 +81,6 @@ img{
 }
 
 a{
-  color:black;
+  color:#36454f;
   text-decoration: none;
 }
