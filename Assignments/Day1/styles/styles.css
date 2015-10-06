@@ -1,10 +1,10 @@
 body{
   background-image: url("../images/paper.png");
-  font-family: 'Raleway', sans-serif;
+//  font-family: 'Raleway', sans-serif;
 }
 
 h1{
-  color:#4EE2EC;
+  color:#75C3CF;
 }
 
 .header{
@@ -14,4 +14,47 @@ h1{
 
 .about{
   margin-left: 150px;
+}
+
+.navbar{
+  //height: 200px;
+  width: 200px;
+  font-size: 50px;
+  color: #75C3CF;
+  margin-left: 130px;
+  margin-top: 40px;
+  display: inline-block;
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: #FFFBF5;
+
+}
+
+.section{
+  margin-left:200px;
+  border: 1px solid #86B3B6;
+  margin-top:20px;
+  background-color: #FFFBF5;
+  width:75%;
+  padding: 10px;
+}
+
+.name{
+  font-size: 20px;
+}
+
+.details{
+  margin-left: 20px;
+}
+
+img{
+  height:300px;
+  margin-left: 30%;
+}
+
+.project-image{
+//  border: 5px solid red;
+  height:200px;
+  //width:200px;
+//  float:right;
 }
