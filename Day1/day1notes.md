@@ -92,4 +92,11 @@
         This is a paragraph.
        </p>`
     - Inefficient to create style for each paragraph in the paragraph tags like this. Instead you can create a `<style>` tag.
-    - Browswer applies the style closest to the content. (cascading!!)
+    - Browser applies the style closest to the content. (cascading!!)
+    - Best practice is to make your styles in a different file
+
+
+  - ASSIGNMENT
+    - create a folder
+    - at least three pages, linked together
+    - external stylesheet
