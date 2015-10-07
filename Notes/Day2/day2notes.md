@@ -51,3 +51,6 @@
  - `git add --all`: adds the files in your directory to your repository. now status will show those files as green.
  - `git commit -m "this is the initial commit that has billmurray blog with a stylesheet and a normalize file"`: commits files that have been changed with the given message. now status will show nothing to commit.
  - `git diff <filename>`: will tell you the differences between your local file and the one that is committed.
+ - `git log`: shows a log of commits
+ - `git remote -v`: shows where the remote is set up
+ - 'git push origin master': pushes the latest commit to the remote called origin and the branch called master (puts your changes on github)
