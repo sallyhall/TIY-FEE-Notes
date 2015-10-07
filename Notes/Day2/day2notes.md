@@ -55,4 +55,4 @@
  - `git remote -v`: shows where the remote is set up
  - 'git push origin master': pushes the latest commit to the remote called origin and the branch called master (puts your changes on github)
 
-set up ssh keys
+set up ssh keys: https://help.github.com/articles/generating-ssh-keys/
