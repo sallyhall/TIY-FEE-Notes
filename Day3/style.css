@@ -1,0 +1,60 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+header, footer{
+  width:100%;
+  background-color:black;
+}
+
+nav ul{
+  margin:0;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: red;
+}
+
+nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+nav li:hover{
+  background-color: blue;
+}
+
+.container{
+  width: 95%;
+  margin:0 auto;
+}
+
+.cols{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-4{
+  background-color: yellow;
+  width:24%;
+}
+
+.col-2{
+  background-color: green;
+  width:47.5%;
+}
+
+.col-1{
+  background-color: red;
+  width:98%;
+}
+
+.col-8{
+  background-color: chartreuse;
+  width: 11.7%;
+}
