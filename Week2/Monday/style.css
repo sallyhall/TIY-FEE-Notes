@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header, footer{
+  width: 100%;
+  background-color: grey;
+}
+
+nav ul {
+  margin:0;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 5px;
+  padding:20px;
+}
+
+nav li:hover{
+  background-color: red;
+}
+
+nav li > a{
+  color: white;
+}
+
+/*'clear' and :before and :after here is preventing anything from sitting next to the wrapper*/
+.wrapper{
+  width: 90%;
+  clear:both;
+}
+
+.wrapper:before, .wrapper:after{
+  content: '';
+  clear:both;
+}
+
+section, aside{
+  display: inline-block;
+  vertical-align: top;
+}
+
+section{
+  width: 67%;
+  background-color: yellow;
+}
+
+aside{
+  width: 32%;
+  background-color: blue;
+}
+
+.content{
+  padding: 15px;
+}
+
+/*This makes the section background red and resizes both section and aside
+to 49% when the window is less than 1020 pixels wide*/
+@media (max-width: 1020px) {
+  section{
+    background-color: red;
+    width: 49%
+  }
+  aside{
+    width: 49%
+  }
+}
+
+@media (max-width: 700px) {
+  section, aside{
+    width: 100%
+  }
+  aside img{
+    width: 100%;
+  }
+}
+
+@media (min-width: 520px) and (max-width: 800px){
+
+  nav li{
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width:520px){
+  section, aside{
+    background-color: green;
+  }
+}
