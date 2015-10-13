@@ -1,0 +1,12 @@
+.box {
+  transition: all 0.5s ease-in-out;
+  width: 500px;
+  height: 500px;
+  background-color: #7BAFD4; }
+  .box:hover {
+    background-color: #ff0000;
+    color: #7BAFD4; }
+  .box p {
+    margin-top: 25%; }
+  .box span {
+    color: white; }
